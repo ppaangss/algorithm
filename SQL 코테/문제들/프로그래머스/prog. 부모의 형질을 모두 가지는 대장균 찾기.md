@@ -1,0 +1,17 @@
+
+# 회고
+셀프조인과 비트마스킹에 관한 문제였다.
+셀프조인이라는 것을 처음 겪어봐서 잘 몰랐지만 이제 그냥 한 테이블에서 연관되어있는거끼리 연결해 조인하는 것이다.
+
+```sql
+SELECT 
+    CHILD.ID, 
+    CHILD.GENOTYPE, 
+    PARENT.GENOTYPE AS PARENT_GENOTYPE
+FROM ECOLI_DATA AS CHILD
+JOIN ECOLI_DATA AS PARENT 
+    ON CHILD.PARENT_ID = PARENT.ID
+WHERE (CHILD.GENOTYPE & PARENT.GENOTYPE) = PARENT.GENOTYPE
+ORDER BY CHILD.ID ASC;
+
+```
