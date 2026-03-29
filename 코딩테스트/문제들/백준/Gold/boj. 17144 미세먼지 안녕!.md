@@ -1,5 +1,13 @@
 https://www.acmicpc.net/problem/17144
-# 회고
+# 개요
+
+### [boj. 17144 미세먼지 안녕!](https://www.acmicpc.net/problem/17144)
+
+### 유형
+
+- BFS
+- 시뮬레이션
+### 회고
 
 문제 이해 + 순수 구현의 실력 싸움이었다...
 
@@ -7,9 +15,11 @@ https://www.acmicpc.net/problem/17144
 
 이런거 시간을 단축시킬수가 있을까? 라는 의문이 든다.
 
+# 해결과정
+
+시뮬레이선 답게 문제를 따라가며 풀면 된다.
 
 # 풀이
-
 
 ```cpp
 #include <iostream>
