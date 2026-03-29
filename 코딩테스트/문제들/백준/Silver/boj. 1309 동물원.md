@@ -1,8 +1,6 @@
 # 개요
 
-### 문제
-
- [문제](https://www.acmicpc.net/problem/1309)
+ ### [boj. 1309 동물원](https://www.acmicpc.net/problem/1309)
 ### 문제 유형
 
 - DP
