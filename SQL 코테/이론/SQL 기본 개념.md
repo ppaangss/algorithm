@@ -102,7 +102,3 @@ INNER JOIN EMPLOYEES M ON E.MANAGER_ID = M.ID;
     - 예: `WHERE PRICE = (SELECT MAX(PRICE) FROM PRODUCTS)` (가장 비싼 상품 찾기)    
 - FROM 절 서브쿼리 (인라인 뷰): 테이블 자체를 가공해서 새로운 가상 테이블로 쓸 때
     - 예: `FROM (SELECT ... ) AS 가상테이블**`
-
-# 집합 연산자 (UNION / UNION ALL)
-
-

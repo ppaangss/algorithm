@@ -1,4 +1,3 @@
-
 # 별칭을 꼭 붙여주자
 
 `Every derived table must have its own alias` 이런 오류가 생긴다.
