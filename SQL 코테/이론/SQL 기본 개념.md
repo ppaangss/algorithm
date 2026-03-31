@@ -87,14 +87,7 @@ INNER JOIN EMPLOYEES M ON E.MANAGER_ID = M.ID;
 - FROM 절 서브쿼리 (인라인 뷰): 테이블 자체를 가공해서 새로운 가상 테이블로 쓸 때
     - 예: `FROM (SELECT ... ) AS 가상테이블**`
 
-# 윈도우 함수
 
-집합 연산자 (UNION / UNION ALL)
-문자열 가공 (String Manipulation)
-EXISTS / NOT EXISTS
-재귀 쿼리 (Recursive CTE)
-문자열 함수 (String Functions)
-날짜 차이 계산 (Date Difference)
-날짜 차이 계산 (Date Difference)
-비표준 집계 (COALESCE)
-CTE (Common Table Expression)
+# 집합 연산자 (UNION / UNION ALL)
+# EXISTS / NOT EXISTS
+
