@@ -17,6 +17,7 @@ NULL 인 값을 다른 값으로 바꾸기
 - `IFNULL(컬럼명, '대체할 값')`
 	- ex) PHONE 컬럼명 추출, NULL 이면 'NONE' 반환
 		- `IFNULL(PHONE, 'NONE')`
+
 - COALESCE 사용: NULL 이 아닌 것 반환
 	- `COALESCE(값1, 값2, 값3 ... )`
 	- 값1 이 NULL 이면 값2 확인, 값2가 NULL 이면 값3 확인
